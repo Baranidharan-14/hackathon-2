@@ -7,7 +7,7 @@ int searchInsert(int* nums, int numsSize, int target)
         int xy=(l+h)/2;
         if(nums[xy]<target)
         {
-         l=mid+1;
+         l=xy+1;
         }
          else if(nums[xy]>target)
          {
